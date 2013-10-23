@@ -1,0 +1,47 @@
+This is BibTeX, Version 0.99c (Web2C 7.5.6)
+The top-level auxiliary file: Paper_Draft.aux
+The style file: abbrv.bst
+Database file #1: Paper_Draft.bib
+Warning--I didn't find a database entry for "Bertolino;2007"
+You've used 6 entries,
+            2118 wiz_defined-function locations,
+            557 strings with 7071 characters,
+and the built_in function-call counts, 3013 in all, are:
+= -- 334
+> -- 107
+< -- 6
++ -- 43
+- -- 36
+* -- 188
+:= -- 446
+add.period$ -- 29
+call.type$ -- 6
+change.case$ -- 36
+chr.to.int$ -- 0
+cite$ -- 6
+duplicate$ -- 136
+empty$ -- 235
+format.name$ -- 36
+if$ -- 695
+int.to.chr$ -- 0
+int.to.str$ -- 6
+missing$ -- 6
+newline$ -- 39
+num.names$ -- 12
+pop$ -- 31
+preamble$ -- 1
+purify$ -- 30
+quote$ -- 0
+skip$ -- 114
+stack$ -- 0
+substring$ -- 214
+swap$ -- 59
+text.length$ -- 6
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 24
+warning$ -- 0
+while$ -- 29
+width$ -- 7
+write$ -- 96
+(There was 1 warning)

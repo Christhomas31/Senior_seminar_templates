@@ -1,0 +1,180 @@
+% This is a sample document using the University of Minnesota, Morris, Computer Science
+% Senior Seminar modification of the ACM sig-alternate style. Much of this content is taken
+% directly from the ACM sample document illustrating the use of the sig-alternate class. Certain
+% parts that we never use have been removed to simplify the example, and a few additional
+% components have been added.
+
+% See https://github.com/UMM-CSci/Senior_seminar_templates for more info and to make
+% suggestions and corrections.
+
+\documentclass{sig-alternate}
+\usepackage{color}
+
+%%%% User-defined macros
+\newcommand{\lam}{\lambda}
+\newcommand{\mycomment}[1]{\textcolor{red}{#1}}
+%%%%% Uncomment the following line and comment out the previous one
+%%%%% to remove all comments
+%%%%% NOTE: comments still occupy a line even if invisible;
+%%%%% Don't write them as a separate paragraph
+%\newcommand{\mycomment}[1]{}
+
+\begin{document}
+
+% --- Author Metadata here ---
+%%% REMEMBER TO CHANGE THE SEMESTER AND YEAR
+\conferenceinfo{UMM CSci Senior Seminar Conference, December 2013}{Morris, MN}
+
+\title{Agile Testing Four Page Draft}
+
+\numberofauthors{1}
+
+\author{
+% The command \alignauthor (no curly braces needed) should
+% precede each author name, affiliation/snail-mail address and
+% e-mail address. Additionally, tag each line of
+% affiliation/address with \affaddr, and tag the
+% e-mail address with \email.
+\alignauthor
+Chris M. Thomas\\
+	\affaddr{Division of Science and Mathematics}\\
+	\affaddr{University of Minnesota, Morris}\\
+	\affaddr{Morris, Minnesota, USA 56267}\\
+	\email{thom3706@morris.umn.edu}
+}
+
+\maketitle
+\begin{abstract}
+\mycomment{Needs to be written!}
+
+\mycomment{passages or ideas worth putting into my abstract below}
+
+When it comes to software development perhaps one of the most important and time consuming processes is that of software testing.  In fact, some early studies on software testing estimated that software testing could consume fifty percent or more of development costs for a product.
+
+Currently there is much debate in the testing world about whether or not test first testing or test last testing is superior and what advantages one type of testing may offer over the other.  The goal of this paper is to therefore attempt to resolve this debate as much as possible by analyzing research data in the field concerning the advantages and disadvantages of each of these testing methods. 
+
+Due to these issues new methods are starting to appear in the agile community that contain some of TDD's main tenets but have shifted enough away from TDD at some fundamental level that they are starting to receive their own names and classifications. 
+\end{abstract}
+
+% A category with the (minimum) three required fields
+\category{H.4}{Information Systems Applications}{Miscellaneous}
+%A category including the fourth, optional field follows...
+\category{D.2.8}{Software Engineering}{Metrics}[complexity measures, performance measures]
+
+\terms{Delphi theory}
+
+\keywords{ACM proceedings, \LaTeX, text tagging}
+
+\section{Introduction}
+When it comes to software development perhaps one of the most important and time consuming processes is that of software testing.  In fact, some early studies on software testing estimated that software testing could consume fifty percent or more of development costs for a product ~\cite{Bertolino;2007}.  because of this business's over time have become increasingly interested in attempting to optimize testing to reduce development costs.
+
+During the 1990's \mycomment{note this is a guess, double check this!} businesses focused on using heavily regimented coding practices that was very process oriented.  Common code methods therefore tended to follow what was called a waterfall model where products were produced by running through a series of phases (IE first there was the planning phase, then designing phase
+occurred, and then once the product was designed the testing phase would occur to make sure the product was customer ready. This type of design often encouraged a test last methodology which predominated this era.
+
+In the early 2000's though critics of the heavily regimented coding practices produced a new set coding practices that focused not on heavily regimented coding practices but on more spontaneous and reactive coding practices.  These new coding practices are referred to as "agile" coding practices after the agile manifesto written in (need date here) which highlights many of the main tenets of this new style of coding.  In this new style of coding test last methodologies became less useful because agile methodologies believed that testing should occur while the code was being written, not after.  This gave rise to a new testing strategy called test first testing or Test Driven Development (TDD).
+
+Currently there is much debate in the testing world about whether or not test first testing or test last testing is superior and what advantages one type of testing may offer over the other.  The goal of this paper is to therefore attempt to resolve this debate as much as possible by analyzing research data in the field concerning the advantages and disadvantages of each of these testing methods.  Also because research often lags behind current implementations and the field of agile development is currently changing due to its relatively new implementation this paper also plans to look into where new agile ideas are going and compare that to the research given in order to give the best possible representation of the two differing fields.  This paper will therefore discuss the advantages and disadvantages of TDD testing versus waterfall testing and explore new emerging agile methodologies in an attempt to determine the usefulness of each methodology.
+
+In order to accomplish this we have divided the rest of the paper into four additional sections which will take about the specific ideas above in more detail. In section two of the paper we will discuss what software testing is in the context of this paper and two popular ways of implementing it, test first and test last testing.  In section three we will provide an analysis of the data explaining the potential advantages and disadvantages of TDD compared to Waterfall testing.  In section four we will go over new TDD based testing methodologies and in section five we will state our conclusions.
+
+\section{Background}
+\subsection{Software Testing}
+Software testing, simply defined, is a branch of software engineering that's main purpose is to either identify potential malfunctions or to demonstrate functionality in a software system by observing the software systems execution ~\cite{Bertolino:2007}.  A simple example of this is running your code after you write it to see if it works. \mycomment{this example needs work}  The main purpose of software testing is that of increasing code quality of software products and is used in tandem with software development techniques to produce serviceable code. Although the purpose of software testing is fairly straight forward (to improve code performance) the understanding on how to best achieve this goal for any given situation can be extraordinarily complex ~\cite{Bertolino:2007}. \mycomment{this transition needs some serious help}  Due to this complexity various methodologies and beliefs currently exist on how to best test products.  In this paper our goal will be to compare various testing methodologies.
+
+\mycomment{this transition between these two paragraphs is rather rocky}
+
+It is important to note that there is no one standard quantitative measurement for code quality because it is a qualitative measurement.  Because of this many different types of measurement are used to attempt to prove that one testing methodology is better then another.  Although there are many different attributes that applicable for arguing the superiority of one methodology over another this paper will only focus on four attributes that are commonly found throughout research; code coverage, time efficiency, customer satisfaction, and code correctness. \mycomment{I'm not sure this paragraphs approach is the best way to get the information I want across to the reader, I probably should probably put more detail into each of my four attributes}
+
+\mycomment{may need to add a small bit about functional testing vs unit testing for section 4}
+
+\subsection{Testing Methods}
+In this paper we will be mainly focusing on two different testing domains, waterfall/test last testing and TDD or test first a popular agile testing method.
+
+Waterfall or test last testing is currently a very popular testing method and is usually the first way of testing that people implement.  This method follows the basic principle of a person first writes their code and then proceeds after the code is considered initially implemented to write tests that check the functionality of their code.  The developer then runs the test against the code and changes the code until the code passes the developers tests.  This testing is often used with plan based development or testing on the fly because it allows the developer to only have to write tests about parts of the code he or she is worried about. \mycomment{This paragraph needs some serious clean up and much more detail on the topic but for now it gets the basic point across}
+
+TDD or Test first testing is another popular testing method and is primarily used in the agile community.  This follows the basic principles that one should actually write tests before code and tailor the code to the tests instead of tailoring the tests to the code.  The idea behind this testing style is that by doing this one can write their codes objectives in tests so that your code becomes tailored to your objectives instead of objectives being tailored to your code.  \mycomment{again this paragraph needs some serious clean up and detail but for now it gets the basic point across}
+
+\mycomment{things to add to this section}
+
+-Add a brief history to each section
+
+-Add justification for why TDD is agile or why TDD is used as an agile practice
+
+-Use a more specific TDD example by using extreme programming
+
+-write a brief conclusion paragraph containing:
+
+-That TDD and waterfall testing are vague terms and not specific
+
+-Mention that there will also be a focus Evolved TDD forms briefly(BDD, ATDD)
+
+
+\section{Analysis of TDD}
+\subsection{TDD Stances and Data}
+Currently, TDD is the most popular testing method in the Agile community.  Many supporters of TDD claim that it reduces overall time spent on a product, improves test coverage, and increases overall code quality.  More importantly there exists data to back up some of these claims.  for example, in the experiment documented by ~\cite{Lemos:2012}, it was noted that on average TDD methodologies increased code coverage by 40\% compared to conventional testing methods.  Another study, documented in ~\cite{Hellman:2012} also suggested some positive traits about TDD by claiming some research showed that TDD practices could reduce effort by up to 27\%. Studies in articles ~\cite{Hellman:2012, Hammond:2012, Kettunen:2010} acknowledged multiple studies that empirically showed at least a marginal increase in product quality when TDD was implemented.  By looking at this data alone it would be relatively easy to see why TDD has such a positive image in industry and academia.
+
+That being said, TDD also has many detractors as well who would tell you that TDD actually increases time spent on a product while not increasing overall code quality. This side also has a fair bit of research backing its opinion.  For example, in ~\cite{Lemos:2012} the same study that showed that TDD increased test coverage by 40\%, it was noted that TDD took significantly more time to implement then conventional testing and did not actually increase code quality. Also, the same study that found research showing the TDD could reduce effort by up to 27\% found other research that suggested that TDD actually increased the effort by two fold ~\cite{Hellman:2012}. It is also worth noting that articles ~\cite{Hammond:2012, Kettunen:2010} also have data and reports arguing that TDD takes more time then conventional testing.  What is perhaps troubling about the data given here is that most of it directly contradicts the data given in the first paragraph.  This suggests an interesting paradox where even though data given on TDD is statistically significant it is decidedly inconclusive. 
+
+\subsection{Analysis of Conflicting Data}
+Even though the data surrounding TDD is inconclusive as a whole it should still be noted that information can still be extracted from it.  This is especially true because many of the results were statically significant meaning that some sort of meaningful data was obtained.   
+Because most of the data was statistically sound it may be worth considering not that the data was faulty but perhaps that the studies contained potentially key differences from one another.  Thus it may be useful to us to try to understand why the data may be so conflicting as it may lead to useful insights about TDD indirectly.
+
+One of the largest issues for summarizing the effectiveness of TDD is the field itself is very broad.  It is important to note that while I specifically defined the original ideas and methodologies of the original idea of TDD, TDD itself has become an umbrella term that has been used to describe a massive array of different testing practices.  This diversity may help explain why we are getting differing results because the TDD practice in one study may be extraordinary different from the TDD practice in another study.  It is worth noting that in ~\cite{Hammond:2012} a major issue with many TDD research papers was the absence of how the TDD process was implemented. This is a major issue in studying the field of TDD because it is hard to tell if people used similar or different methods of TDD to obtain their results.
+
+Another issue for understanding the effectiveness of TDD that many TDD researchers have run into is that TDD is actually a difficult process to implement correctly.  There were many testimonies throughout various articles ~\cite{Hammond:2012, Hellman:2012, Kettunen:2010} of industry professionals finding the TDD process to be much more difficult to implement correctly compared to traditional testing frameworks.  Also, many articles on the analysis of TDD at some point brings up the topic of the complexity of TDD. This acknowledgement of complexity is important as it may suggest a result bias in TDD experiments based on the skill level of the participants as less experienced participants may be significantly less likely to implement TDD in an efficient or successful manner while more experienced participants may have more success.  In one study at a college, although not significantly analyzed due to a lack of participants, it was noted that Alumni who used TDD produced overall better quality code compared to their conventional testing Alumni counterparts while current students in the college showed almost no difference in code quality between TDD and conventional test methods ~\cite{Lemos:2012}.  This potential bias would wreck havoc on TDD data conclusiveness as a whole as the two major participant types for TDD experiments are industry professionals and college students who have vast gaps in experience difference.
+
+Overall it is very hard to draw conclusions on the effectiveness of TDD. Out of all the data out there there is really only one data point that seems to be incontrovertible which is the fact that TDD always seems to increase overall code coverage.  Perhaps another conclusion that can be made is that TDD seems to produce no worse code quality then traditional waterfall testing.  Also there are some implications from potential confounding factors that not all TDD methods are created equal and experience may play a large role in TDD effectiveness. Everything else on the effectiveness of TDD seems to be inconclusive.
+\section{evolutions to TDD}
+\mycomment{I feel that this is a much needed and very interesting section for exploring Agile testing but I am becoming increasingly concerned about how well this section may be able to tie into the rest of the paper. I would like to use this section as a useful resource for seeing where TDD is going/ what problems TDD developers are trying to address/ see if any of these new spin offs may solve problems that are coming up in research listed in section 3. Any input on how to tie this section into the paper or how to better reach the goals given above would be useful.}
+
+As can been seen in the above sections there are some issues in the current implementation of TDD testing.  Due to these issues new methods are starting to appear in the agile community that contain some of TDD's main tenets but have shifted enough away from TDD at some fundamental level that they are starting to receive their own names and classifications.  Although there are many of these spin-offs in TDD for this paper we chose to focus on three more popular spin offs, acceptance test driven development, Behavior driven development, and Agile Specification Driven Development.
+
+\subsection{acceptance test driven development}
+
+Perhaps the closest spin off to TDD, acceptance test driven development (ATDD), follows many of the ideas and expectations that regular TDD does, like writing tests first and following and using tests to define the development code.  Unlike TDD though ATDD believes that in order to produce higher quality code and better customer satisfaction customers should write or define "acceptance" tests that must be passed before the product is considered finished.  This part of ATDD is noticeably different from the TDD ideology because in the TDD ideology only the developer should writes the tests and the tests should be written from simplest to hardest.~\cite{Hammond:2012}
+
+Although some people claim ATDD is a step in the right direction for TDD developers their are also many people who have complaints about ATDD.  One of the major complaints is that ATDD is an ideal practice at best because customers will not take the time to create useful acceptance tests.~\cite{Hammond:2012} Yet others state that ATDD is very hard for both customers and developers to implement correctly because their is no effective common language between the two factions.(site new IEEE article here)  Because of these varied complaints some of the promoters of ATDD have moved away from it to support a newer similar TDD spin off, Behavior Driven Development or BDD.
+
+\subsection{Behavior Driven Development}
+BDD is a new spin off of TDD that focuses on how to correctly implement the fundamental usefulness of TDD.  In BDD the most important thing that it argues is that TDD is unsuccessful because it is vague and it focuses more on "testing the code" then showing the codes behavior.  Thus BDD argues that solving the problem is to stop thinking about code in terms of testing but to understand code in terms of behavior.  Because of this shift in ideas BDD uses different testing tools, such as JBehave for java or Cucumber for Ruby \cite{Soeken:2012}, compared to TDD that breaks code testing down into standard verbal sentences instead of basic testing language.  The argued pros for this type of language usage is that it actually reduces much of the difficulty of tdd by allowing us to define the purpose of our code in more natural terms thus removing much of the confusion about what is important to test in TDD and the other pro is that now it is easier to communicate goals and functionality of the code to non computer science majors (IE Managers, Customers, Sales Reps, etc.) which allows for higher customer satisfaction.
+\mycomment{this is just a blurb on BDD and what it is and what perceived advantages it contains, this paragraph will get reworked as it does not fit in the current paper well}
+
+\mycomment{need to do more research here}
+
+\subsection{Agile Specification-Driven Development}
+The new testing style Agile Specification-Driven Development is a hybrid of two older testing styles TDD and DbC (design by contract).
+
+Advantage to merging the DbC system with TDD is it gives the designer a better idea about what is important to test \mycomment{and other advantages should also crop up in research on DbC}
+
+\mycomment{need to do research here, specifically it would be useful to do some research on DbC}
+\section{conclusion}
+In conclusion with the current information available to us there is no obviously superior testing methods between TDD or test first ideologies and waterfall or test last ideologies.  That being said it is worth noting that their are still differences between the two testing methods and that although there is not a clear overall advantage between the two languages certain traits make make one method of testing better then another method of testing in a specific scenario.  For example when dealing with new and relatively inexperienced programmers the test last methodology may be more efficient then the test first methodology.  Another example may be that you believe code coverage is an important necessity for your product, in this case you would probably want to use test first over test last to test your code.  Therefore until research on the subject becomes more clear it would be wise to consider both testing practices as effective and potentially useful for any project you may choose to undertake.
+
+\mycomment{this paragraph is a rough idea of what might be useful conclusions to draw from section three}
+
+For people who are looking to advance the field of TDD it would be potentially very interesting to see how the new TDD spin-offs such as Behavior Driven Development and Agile Specification-Driven Development compare to that of a well documented TDD process like the one suggested for Extreme Programming.  Another thing that could also help advance the field is to do research comparing the effectiveness of waterfall testing and TDD testing between groups with notably different experience levels as some research tentatively points that this may be a relevant variable.
+
+\mycomment{This paragraph is a rough idea on the further research topic}
+
+\mycomment{conclusion brain storm}
+
+-TDD increases code test coverage
+
+-TDD perhaps takes more skill to preform
+
+-TDD may have more effective and less effective practices
+
+-More study is needed.
+
+-Better study methods should be implimented
+
+\bibliographystyle{abbrv}
+% sample_paper.bib is the name of the BibTex file containing the
+% bibliography entries. Note that you *don't* include the .bib ending here.
+\bibliography{Paper_Draft}  
+% You must have a proper ".bib" file
+%  and remember to run:
+% latex bibtex latex latex
+% to resolve all references
+
+\end{document}

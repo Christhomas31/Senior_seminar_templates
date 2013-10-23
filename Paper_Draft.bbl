@@ -1,0 +1,70 @@
+\begin{thebibliography}{1}
+
+\bibitem{Bertolino:2007}
+A.~Bertolino.
+\newblock Software testing research: Achievements, challenges, dreams.
+\newblock In {\em 2007 Future of Software Engineering}, FOSE '07, pages
+  85--103, Washington, DC, USA, 2007. IEEE Computer Society.
+\newblock \emph{Validity: Very Good. This seems like a good article to read on
+  testing in general. If this paper explores testing like I think it will, it
+  may help set the tone of the entire paper and clarify important traits in
+  testing. I think this will be a key background paper}.
+
+\bibitem{Hammond:2012}
+S.~Hammond and D.~Umphress.
+\newblock Test driven development: the state of the practice.
+\newblock In {\em Proceedings of the 50th Annual Southeast Regional
+  Conference}, ACM-SE '12, pages 158--163, New York, NY, USA, 2012. ACM.
+\newblock \emph{Validity: Good. This short article seems useful on getting the
+  current scoop on Agile testing. I do not think that it will be a main paper
+  unless it is very dense or relevant but I think it would serve well as a
+  support or background paper.}
+
+\bibitem{Hellman:2012}
+T.~Hellmann, A.~Sharma, J.~Ferreira, and F.~Maurer.
+\newblock Agile testing: Past, present, and future -- charting a systematic map
+  of testing in agile software development.
+\newblock In {\em Agile Conference 2012}, AGILE 13, pages 55 -- 63, 2012.
+\newblock \emph{Validity: Good. This article I think will be a useful summary
+  article on agile testing. This article would make a useful background
+  article. University may not be able to access this article, in that case this
+  article will be ignored. }.
+
+\bibitem{Kettunen:2010}
+V.~Kettunen, J.~Kasurinen, O.~Taipale, and K.~Smolander.
+\newblock A study on agility and testing processes in software organizations.
+\newblock In {\em PGood/Questionableroceedings of the 19th international
+  symposium on Software testing and analysis}, ISSTA '10, pages 231--240, New
+  York, NY, USA, 2010. ACM.
+\newblock \emph{Validity: Very Good. This article seems very promising as its a
+  recent paper that has research of the advantages of agile testing compared to
+  conventional testing. The writers seem very credible in the field. This paper
+  is likely to be a core paper unless its actually poorly written or doesn’t
+  mesh well with other papers.}
+
+\bibitem{Lemos:2012}
+O.~A.~L. Lemos, F.~C. Ferrari, F.~F. Silveira, and A.~Garcia.
+\newblock Development of auxiliary functions: should you be agile? an empirical
+  assessment of pair programming and test-first programming.
+\newblock In {\em Proceedings of the 2012 International Conference on Software
+  Engineering}, ICSE 2012, pages 529--539, Piscataway, NJGood/Questionable,
+  USA, 2012. IEEE Press.
+\newblock \emph{Validity: Very Good. This article seems useful as it is a
+  modern research paper on the effectiveness of agile testing practices. That
+  being said one of the main downsides of this article is that it splits its
+  attention between TDD and Pair programming which is concerning.}
+
+\bibitem{Soeken:2012}
+M.~Soeken, R.~Wille, and R.~Drechsler.
+\newblock Assisted behavior driven development using natural language
+  processing.
+\newblock In {\em Proceedings of the 50th international conference on Objects,
+  Models, Components, Patterns}, TOOLS'12, pages 269--287, Berlin, Heidelberg,
+  2012. Springer-Verlag.
+\newblock \emph{Validity: Good/Questionable. If I use this article it will be
+  important to analyze it for credibility. This article focuses on english
+  language like BDD testing and the advantages of that. Can be linked to agile
+  testing principles through customer developer interactions. Worried how well
+  this paper will merge with others if it becomes a core paper.}
+
+\end{thebibliography}

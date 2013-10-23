@@ -1,0 +1,56 @@
+This is BibTeX, Version 0.99c (Web2C 7.5.6)
+The top-level auxiliary file: annotated_bibliography.aux
+Case mismatch error between cite keys lemos:2012 and Lemos:2012
+---line 18 of file annotated_bibliography.aux
+ : \citation{lemos:2012
+ :                     }
+I'm skipping whatever remains of this command
+White space in argument---line 27 of file annotated_bibliography.aux
+ : \citation{Soeken:2012
+ :                       }
+I'm skipping whatever remains of this command
+The style file: abbrv.bst
+Database file #1: annotated_bibliography.bib
+Warning--I didn't find a database entry for "Hellmann:2012"
+You've used 10 entries,
+            2118 wiz_defined-function locations,
+            597 strings with 9252 characters,
+and the built_in function-call counts, 4913 in all, are:
+= -- 550
+> -- 169
+< -- 9
++ -- 68
+- -- 56
+* -- 307
+:= -- 724
+add.period$ -- 48
+call.type$ -- 10
+change.case$ -- 58
+chr.to.int$ -- 0
+cite$ -- 10
+duplicate$ -- 220
+empty$ -- 385
+format.name$ -- 56
+if$ -- 1131
+int.to.chr$ -- 0
+int.to.str$ -- 10
+missing$ -- 10
+newline$ -- 63
+num.names$ -- 20
+pop$ -- 47
+preamble$ -- 1
+purify$ -- 48
+quote$ -- 0
+skip$ -- 187
+stack$ -- 0
+substring$ -- 366
+swap$ -- 95
+text.length$ -- 9
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 40
+warning$ -- 0
+while$ -- 48
+width$ -- 12
+write$ -- 156
+(There were 2 error messages)

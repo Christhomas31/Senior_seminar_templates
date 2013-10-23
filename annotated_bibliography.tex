@@ -16,7 +16,7 @@
 %%% REMEMBER TO CHANGE THE SEMESTER AND YEAR
 \conferenceinfo{UMM CSci Senior Seminar Conference, December 2013}{Morris, MN}
 
-\title{Something about NP-complete problems}
+\title{Agile Testing Section Draft}
 
 \numberofauthors{1}
 
@@ -27,43 +27,83 @@
 % affiliation/address with \affaddr, and tag the
 % e-mail address with \email.
 \alignauthor
-Chris S. Student\\
+Chris M. Thomas\\
 	\affaddr{Division of Science and Mathematics}\\
 	\affaddr{University of Minnesota, Morris}\\
 	\affaddr{Morris, Minnesota, USA 56267}\\
-	\email{cssxxxx00000@morris.umn.edu}
+	\email{thom3706@morris.umn.edu}
 }
 
 \maketitle
 
-\begin{abstract}
-This paper discusses new results in NP-complete problems and the use of distributed
-networks to solve certain partial cases of NP-complete problems.
-\end{abstract}
-
-% A category with the (minimum) three required fields
-\category{H.4}{Information Systems Applications}{Miscellaneous}
-%A category including the fourth, optional field follows...
-\category{D.2.8}{Software Engineering}{Metrics}[complexity measures, performance measures]
-
-\terms{Delphi theory}
 
 \keywords{ACM proceedings, \LaTeX, text tagging}
 
+\section{Senior Seminar Paper Goals}
+The goal of this paper is to explore what entails agile testing and its apparent effectiveness in the practical coding world.  Specifically I would like to explore the current implementations of agile testing and see how it has evolved overtime, and how agile testing compares to conventional testing. My articles: ~\cite{George:2003, Schneider:2013, Lemos:2012, Hammond:2012, Soeken:2012, Kettunen:2010, Sawyer:2009, Bertolino:2007, Talby:2006, Hellman:2012}
+
+\section{Key Points}
+1. Testing is very costly and not always effective for industry so optimizing testing practices is very important.
+This was a key point that was brought up in multiple papers, some of which even stated that prior research showed that up to 50\% of all development funds was invested in testing ~\cite{Bertolino:2007, Kettunen:2010}. This point is important for understanding the relevance of this paper and this point is also useful for putting testing advantages and disadvantages in a useful context.  One article in particular ~\cite{Bertolino:2007} really highlights this but many of the other articles touch on it in one way or another.
+
+
+2. TDD is the main form of Agile testing
+This is acknowledged in almost every article I found on the topic and though few mention other forms of testing the bulk of the interest and detail seems to be focused on TDD, usually in its original form within Extreme Programming.  TDD is heavily mentioned in the following articles ~\cite{George:2003, Hammond:2012, Hellman:2012, lemos:2012, Kettunen:2010, Talby:2006} 
+
+
+3. TDD has inconclusive results tied to it
+This key point was brought up a lot in papers when explaining TDD itself or the results of TDD experiments.  for example some papers say TDD makes a product take longer to produce ~\cite{Lemos:2012, Hammond:2012} while others say it decreases the overall development time ~\cite{Kettunen:2010}.  Other data points that I ran into that had this same indecisive data problem was whether TDD improved code quality, improved customer satisfaction, and/or created less buggy code.  Perhaps the only agreed on data point is that TDD tends to produce a massive increase in code coverage and test size (no articles disputed this point and many reputed it).  In particular papers ~\cite{Hammond:2012, Hellman:2012, Kettunen:2010} seem to spend some time attempting to explain this phenomena and all agree that some of the major reasons they give for why this data is all over the place is A. TDD is actually hard to implement correctly, B. TDD is a very vague term that is not well defined so many different testing methods are done under the same name.
+ 
+
+4. New TDD approaches are evolving to help generate goals to promote customer satisfaction and reduce unneeded complexity.
+This key point is brought up by only two articles directly, ~\cite{Soeken:2012 , Hammond:2012} but it was referenced indirectly in other articles.  Although there is not much backing for what this point is I think it is an important point to bring up as it is showing the future of agile testing.
+
+
+\section{Outline Begins here}
+
 \section{Introduction}
-I will focus on using the approach Blah for solving partial cases of
-NP-complete problems on distributed networks.
+Here I plan to talk about the idea of agile testing and why anyone should care. I also plan to lay out a road map here for the rest of my paper.
 
-I plan to use the following sources:
-\begin{itemize}
-\item I expect~\cite{OM:2008} to be one of my main sources, and I'm still looking for another two ``core'' papers to build on.
-\item I may use~\cite{Brun:2008} for comparison. 
-\item I'll use~\cite{Aaronson:2005, wiki:np-complete} and possibly selected chapters of~\cite{Garey:1979} as background. 
-\end{itemize}
 
-As mentioned above I need two other ``core'' papers, and I'm still looking for good examples that I can use to explain the 
+\section{Background}
+\subsection{Software Testing}
+in this portion I will:
+-Give a basic explanation of software testing
+-Give the main goals of software testing
+-Express the importance of software testing
+-Go into current testing methods
 
-I was initially considering algorithms on compete graphs as a possible topic, and looked over~\cite{winkler1984isometric, dobkin1987delaunay, folkman1970graphs} before I settled on my current topic.
+\subsection{Agile Programming}
+in this portion I will:
+-explain Agile Ideology (make sure to list important tenents like customer communication)
+-explain basic TDD
+
+
+
+\section{Analysis of TDD}
+\subsection{TDD Stances and Data}
+Currently, TDD is the most popular testing method in the Agile community.  Many supporters of TDD claim that it reduces overall time spent on a product, improves test coverage, and increases overall code quality.  More importantly there exists data to back up some of these claims.  for example, in the experiment documented by ~\cite{Lemos:2012}, it was noted that on average TDD methodologies increased code coverage by 40\% compared to conventional testing methods.  Another study, documented in ~\cite{Hellmann:2012} also suggested some positive traits about TDD by claiming some research showed that TDD practices could reduce effort by up to 27\%. Studies in articles ~\cite{Hellman:2012, Hammond:2012, Kettunen:2010} acknowledged multiple studies that empirically showed at least a marginal increase in product quality when TDD was implemented.  By looking at this data alone it would be relatively easy to see why TDD has such a positive image in industry and academia.
+
+That being said, TDD also has many detractors as well who would tell you that TDD actually increases time spent on a product while not increasing overall code quality. This side also has a fair bit of research backing its opinion.  For example, in ~\cite{Lemos:2012} the same study that showed that TDD increased test coverage by 40\%, it was noted that TDD took significantly more time to implement then conventional testing and did not actually increase code quality. Also, the same study that found research showing the TDD could reduce effort by up to 27\% (~\cite{Hellman:2012}) found other research that suggested that TDD actually increased the effort by two fold. It is also worth noting that articles ~\cite{Hammond:2012, Kettunen:2010} also have data and reports arguing that TDD takes more time then conventional testing.  What is perhaps troubling about the data given here is that most of it directly contradicts the data given in the first paragraph.  This suggests an interesting paradox where even though data given on TDD is statistically significant it is decidedly inconclusive. 
+
+\subsection{Analysis of Conflicting Data}
+Even though the data surrounding TDD is inconclusive as a whole it should still be noted that information can still be extracted from it.  This is especially true because many of the results were statically significant meaning that some sort of meaningful data was obtained.   
+Because most of the data was statistically sound it may be worth considering not that the data was faulty but perhaps that the studies contained potentially key differences from one another.  Thus it may be useful to us to try to understand why the data may be so conflicting as it may lead to useful insights about TDD indirectly.
+
+One of the largest issues for summarizing the effectiveness of TDD is the field itself is very broad.  It is important to note that while I specifically defined the original ideas and methodologies of the original idea of TDD, TDD itself has become an umbrella term that has been used to describe a massive array of different testing practices.  This diversity may help explain why we are getting differing results because the TDD practice in one study may be extraordinary different from the TDD practice in another study.  It is worth noting that in ~\cite{Hammond:2012} a major issue with many TDD research papers was the absence of how the TDD process was implemented. This is a major issue in studying the field of TDD because it is hard to tell if people used similar or different methods of TDD to obtain their results.
+
+Another issue for understanding the effectiveness of TDD that many TDD researchers have run into is that TDD is actually a difficult process to implement correctly.  There were many testimonies throughout various articles ~\cite{Hammond:2012, Hellman:2012, Kettunen:2010} of industry professionals finding the TDD process to be much more difficult to implement correctly compared to traditional testing frameworks.  Also, many articles on the analysis of TDD at some point brings up the topic of the complexity of TDD. This acknowledgement of complexity is important as it may suggest a result bias in TDD experiments based on the skill level of the participants as less experienced participants may be significantly less likely to implement TDD in an efficient or successful manner while more experienced participants may have more success.  In one study at a college, although not significantly analyzed due to a lack of participants, it was noted that Alumni who used TDD produced overall better quality code compared to their conventional testing Alumni counterparts while current students in the college showed almost no difference in code quality between TDD and conventional test methods ~\cite{Lemos:2012}.  This potential bias would wreck havoc on TDD data conclusiveness as a whole as the two major participant types for TDD experiments are industry professionals and college students who have vast gaps in experience difference.
+
+Overall it is very hard to draw conclusions on the effectiveness of TDD. Out of all the data out there there is really only one data point that seems to be incontrovertible which is the fact that TDD always seems to increase overall code coverage.  Perhaps another conclusion that can be made is that TDD seems to produce no worse code quality then traditional waterfall testing.  Also there are some implications from potential confounding factors that not all TDD methods are created equal and experience may play a large role in TDD effectiveness. Everything else on the effectiveness of TDD seems to be inconclusive.
+\section{evolutions to TDD}
+\subsection{BDD}
+Here I plan to explain what BDD is and why it may be better then TDD.
+
+\subsection{ATDD}
+Here I plan to explain what ATDD is and why it may be better then TDD.
+\section{conclusion}
+Here I plan to talk about the main take away points of this paper
+
 
 % The following two commands are all you need to
 % produce the bibliography for the citations in your paper.
