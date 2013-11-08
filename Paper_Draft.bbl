@@ -30,6 +30,13 @@ T.~Hellmann, A.~Sharma, J.~Ferreira, and F.~Maurer.
   article. University may not be able to access this article, in that case this
   article will be ignored. }.
 
+\bibitem{Janzen:2007}
+D.~S. Janzen and H.~Saiedian.
+\newblock A leveled examination of test-driven development acceptance.
+\newblock In {\em Proceedings of the 29th international conference on Software
+  Engineering}, ICSE '07, pages 719--722, Washington, DC, USA, 2007. IEEE
+  Computer Society.
+
 \bibitem{Kettunen:2010}
 V.~Kettunen, J.~Kasurinen, O.~Taipale, and K.~Smolander.
 \newblock A study on agility and testing processes in software organizations.
@@ -41,6 +48,13 @@ V.~Kettunen, J.~Kasurinen, O.~Taipale, and K.~Smolander.
   conventional testing. The writers seem very credible in the field. This paper
   is likely to be a core paper unless its actually poorly written or doesn’t
   mesh well with other papers.}
+
+\bibitem{Kollanus:2010}
+S.~Kollanus.
+\newblock Test-driven development - still a promising approach?
+\newblock In {\em Proceedings of the 2010 Seventh International Conference on
+  the Quality of Information and Communications Technology}, QUATIC '10, pages
+  403--408, Washington, DC, USA, 2010. IEEE Computer Society.
 
 \bibitem{Lemos:2012}
 O.~A.~L. Lemos, F.~C. Ferrari, F.~F. Silveira, and A.~Garcia.
