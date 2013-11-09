@@ -1,4 +1,4 @@
-This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2011.8.22)  5 NOV 2013 15:44
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2011.8.21)  9 NOV 2013 02:22
 entering extended mode
  %&-line parsing enabled.
 **Paper_Draft.tex
@@ -295,16 +295,17 @@ Overfull \hbox (1.26794pt too wide) in paragraph at lines 54--55
 
 
 ] [2]
-Underfull \vbox (badness 1558) has occurred while \output is active []
-
- [3]
-[4] (./Paper_Draft.bbl
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [5])
-[6
+ [3]
+Underfull \vbox (badness 1558) has occurred while \output is active []
 
-] (./Paper_Draft.aux) ) 
+ [4]
+(./Paper_Draft.bbl [5]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+) [6]
+(./Paper_Draft.aux) ) 
 Here is how much of TeX's memory you used:
  2535 strings out of 256216
  29517 string characters out of 1917072
@@ -312,15 +313,15 @@ Here is how much of TeX's memory you used:
  5777 multiletter control sequences out of 10000+200000
  51691 words of font info for 69 fonts, out of 1200000 for 2000
  645 hyphenation exceptions out of 8191
- 39i,11n,26p,1699b,260s stack positions out of 5000i,500n,6000p,200000b,15000s
-{/usr/share/texmf/fonts/enc/dvips/base/8r.enc}</usr/shar
-e/texmf/fonts/type1/bluesky/cm/cmbx9.pfb></usr/share/texmf/fonts/type1/bluesky/
-cm/cmr6.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmr9.pfb></usr/share/texmf
-/fonts/type1/bluesky/cm/cmti9.pfb></usr/share/texmf/fonts/type1/urw/helvetic/uh
-vb8a.pfb></usr/share/texmf/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texm
-f/fonts/type1/urw/times/utmb8a.pfb></usr/share/texmf/fonts/type1/urw/times/utmr
-8a.pfb></usr/share/texmf/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Paper_Draft.pdf (6 pages, 127574 bytes).
+ 39i,11n,26p,2257b,260s stack positions out of 5000i,500n,6000p,200000b,15000s
+{/usr/share/texmf/fonts/enc/dvips/base/8r.enc}</usr/share/
+texmf/fonts/type1/bluesky/cm/cmbx9.pfb></usr/share/texmf/fonts/type1/bluesky/cm
+/cmr6.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmr9.pfb></usr/share/texmf/f
+onts/type1/bluesky/cm/cmti9.pfb></usr/share/texmf/fonts/type1/urw/helvetic/uhvb
+8a.pfb></usr/share/texmf/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texmf/
+fonts/type1/urw/times/utmb8a.pfb></usr/share/texmf/fonts/type1/urw/times/utmr8a
+.pfb></usr/share/texmf/fonts/type1/urw/times/utmri8a.pfb>
+Output written on Paper_Draft.pdf (6 pages, 131134 bytes).
 PDF statistics:
  58 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 131072)
