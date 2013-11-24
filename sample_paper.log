@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.13 (TeX Live 2013/dev) (format=pdflatex 2013.9.23)  23 NOV 2013 21:30
+This is pdfTeX, Version 3.1415926-2.5-1.40.13 (TeX Live 2013/dev) (format=pdflatex 2013.9.23)  23 NOV 2013 18:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**Paper_Draft.tex
-(./Paper_Draft.tex
+**sample_paper.tex
+(./sample_paper.tex
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, dumylang, nohyphenation, lo
 aded.
@@ -220,8 +220,8 @@ File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
 Package color Info: Driver file: pdftex.def on input line 130.
 )
-(./Paper_Draft.aux)
-\openout1 = `Paper_Draft.aux'.
+No file sample_paper.aux.
+\openout1 = `sample_paper.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 22.
 LaTeX Font Info:    ... okay on input line 22.
@@ -235,7 +235,6 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 22.
 LaTeX Font Info:    ... okay on input line 22.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 22.
 LaTeX Font Info:    ... okay on input line 22.
-
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count112
@@ -327,80 +326,130 @@ e
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Font Info:    Try loading font information for U+msa on input line 45.
+LaTeX Font Info:    Try loading font information for U+msa on input line 46.
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 45.
+LaTeX Font Info:    Try loading font information for U+msb on input line 46.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+lasy on input line 45.
+LaTeX Font Info:    Try loading font information for U+lasy on input line 46.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-Underfull \hbox (badness 5316) in paragraph at lines 45--45
+Underfull \hbox (badness 5316) in paragraph at lines 46--46
 []\crnotice This work is li-censed un-der the Cre-ative Com-mons Attribution-
  []
+
+
+Overfull \hbox (1.26794pt too wide) in paragraph at lines 74--75
+\T1/aer/m/n/9 H.4 [\T1/aer/bx/n/9 Information Sys-tems Ap-pli-ca-tions\T1/aer/m
+/n/9 ]: Mis-cel-la-neous;
+ []
+
+LaTeX Font Info:    Try loading font information for T1+aett on input line 99.
+(/usr/share/texlive/texmf-dist/tex/latex/ae/t1aett.fd
+File: t1aett.fd 1997/11/16 Font definitions for T1/aett.
+)
+
+LaTeX Warning: Reference `main' on page \thepage  undefined on input line 106.
 
 [1{/usr/share/texlive/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 
-] [2]
-Underfull \vbox (badness 1558) has occurred while \output is active []
+]
+
+LaTeX Warning: Citation `Lamport:LaTeX' on page \thepage  undefined on input li
+ne 158.
 
 
-<janzengraph1.pdf, id=16, 227.32568pt x 164.90749pt>
-File: janzengraph1.pdf Graphic file (type pdf)
- <use janzengraph1.pdf>
-Package pdftex.def Info: janzengraph1.pdf used on input line 122.
-(pdftex.def)             Requested size: 216.81pt x 157.28777pt.
+LaTeX Warning: Citation `Lamport:LaTeX' on page \thepage  undefined on input li
+ne 173.
 
-<janzengraph2.pdf, id=17, 231.17868pt x 165.67807pt>
-File: janzengraph2.pdf Graphic file (type pdf)
- <use janzengraph2.pdf>
-Package pdftex.def Info: janzengraph2.pdf used on input line 128.
-(pdftex.def)             Requested size: 216.81pt x 155.38345pt.
 
-Overfull \hbox (10.37572pt too wide) in paragraph at lines 137--138
-[]\T1/aer/m/n/9 which ap-proach they would choose in the fu-ture (\T1/aer/bx/n/
-9 Choice\T1/aer/m/n/9 ) 
+LaTeX Warning: Citation `Aaronson:2005' on page \thepage  undefined on input li
+ne 215.
+
+
+LaTeX Warning: Citation `Garey:1979' on page \thepage  undefined on input line 
+215.
+
+
+LaTeX Warning: Citation `Brun:2008' on page \thepage  undefined on input line 2
+15.
+
+
+LaTeX Warning: Citation `OM:2008' on page \thepage  undefined on input line 221
+.
+
+[2] <sample_graph.pdf, id=26, 794.97pt x 614.295pt>
+File: sample_graph.pdf Graphic file (type pdf)
+ <use sample_graph.pdf>
+Package pdftex.def Info: sample_graph.pdf used on input line 308.
+(pdftex.def)             Requested size: 216.81pt x 167.53032pt.
+File: sample_graph.pdf Graphic file (type pdf)
+
+<use sample_graph.pdf>
+Package pdftex.def Info: sample_graph.pdf used on input line 319.
+(pdftex.def)             Requested size: 383.03122pt x 295.98305pt.
+\c@theorem=\count118
+\c@definition=\count119
+
+Overfull \hbox (15.60826pt too wide) detected at line 381
+\OML/cmm/m/it/9 l \OT1/cmr/m/n/9 = [] \OML/cmm/m/it/9 f\OT1/cmr/m/n/9 (\OML/cmm
+/m/it/9 x\OT1/cmr/m/n/9 ) = [] [] = [] \OML/cmm/m/it/9 g\OT1/cmr/m/n/9 (\OML/cm
+m/m/it/9 x\OT1/cmr/m/n/9 ) \OMS/cmsy/m/n/9 ^^A [] [] \OT1/cmr/m/n/9 = 0 \OMS/cm
+sy/m/n/9 ^^A \OML/cmm/m/it/9 L \OT1/cmr/m/n/9 = 0\OML/cmm/m/it/9 ;
  []
 
-[3 <./janzengraph1.pdf>]
-Underfull \vbox (badness 1558) has occurred while \output is active []
 
- [4 <./janzengraph2.pdf>] [5] (./Paper_Draft.bbl [6]) [7
+LaTeX Warning: Citation `salas:calculus' on page \thepage  undefined on input l
+ine 391.
 
-] (./Paper_Draft.aux) ) 
+[3 <./sample_graph.pdf, page is rotated 90 degrees>]
+No file sample_paper.bbl.
+[4
+
+] (./sample_paper.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
 Here is how much of TeX's memory you used:
- 3323 strings out of 495063
- 42957 string characters out of 3182194
- 114886 words of memory out of 3000000
- 6418 multiletter control sequences out of 15000+200000
- 52818 words of font info for 70 fonts, out of 3000000 for 9000
+ 3362 strings out of 495063
+ 43360 string characters out of 3182194
+ 114855 words of memory out of 3000000
+ 6444 multiletter control sequences out of 15000+200000
+ 61896 words of font info for 85 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
- 41i,11n,28p,1695b,258s stack positions out of 5000i,500n,10000p,200000b,50000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.e
-nc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texli
-ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/f
-onts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmsy9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmti9.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb
-8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr
-/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/
-texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/font
-s/type1/urw/times/utmri8a.pfb>
-Output written on Paper_Draft.pdf (7 pages, 416858 bytes).
+ 41i,11n,28p,278b,258s stack positions out of 5000i,500n,10000p,200000b,50000s
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texlive/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cmextra/cmex9.pfb></usr/share/texlive/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmmi9.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.p
+fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti7.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb></usr/share/texliv
+e/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb
+i8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/s
+hare/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on sample_paper.pdf (4 pages, 212799 bytes).
 PDF statistics:
- 206 PDF objects out of 1000 (max. 8388607)
- 149 compressed objects within 2 object streams
+ 98 PDF objects out of 1000 (max. 8388607)
+ 72 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 11 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
