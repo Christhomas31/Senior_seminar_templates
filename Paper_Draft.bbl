@@ -14,6 +14,12 @@ A.~Bertolino.
 \newblock In {\em 2007 Future of Software Engineering}, FOSE '07, pages
   85--103, Washington, DC, USA, 2007. IEEE Computer Society.
 
+\bibitem{George:2003}
+B.~George and L.~Williams.
+\newblock An initial investigation of test driven development in industry.
+\newblock In {\em Proceedings of the 2003 ACM symposium on Applied computing},
+  SAC '03, pages 1135--1139, New York, NY, USA, 2003. ACM.
+
 \bibitem{Hammond:2012}
 S.~Hammond and D.~Umphress.
 \newblock Test driven development: the state of the practice.
@@ -58,11 +64,24 @@ O.~A.~L. Lemos, F.~C. Ferrari, F.~F. Silveira, and A.~Garcia.
 \bibitem{agile:xxx}
 A.~Manifesto.
 \newblock Manifesto for agile software development, 2013.
-\newblock [Online; accessed 17-November-2013].
+\newblock [http://agilemanifesto.org/ ; accessed 17-November-2013].
+
+\bibitem{North:xxx}
+D.~North.
+\newblock Introducing bdd, 2006.
+\newblock [http://dannorth.net/introducing-bdd/; accessed 25-November-2013].
+
+\bibitem{Soeken:2012}
+M.~Soeken, R.~Wille, and R.~Drechsler.
+\newblock Assisted behavior driven development using natural language
+  processing.
+\newblock In {\em Proceedings of the 50th international conference on Objects,
+  Models, Components, Patterns}, TOOLS'12, pages 269--287, Berlin, Heidelberg,
+  2012. Springer-Verlag.
 
 \bibitem{wiki:xxx}
 Wikipedia.
 \newblock Waterfall model --- wikipedia{,} the free encyclopedia, 2013.
-\newblock [Online; accessed 17-November-2013].
+\newblock [Online ; accessed 17-November-2013].
 
 \end{thebibliography}
