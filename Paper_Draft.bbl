@@ -14,6 +14,11 @@ A.~Bertolino.
 \newblock In {\em 2007 Future of Software Engineering}, FOSE '07, pages
   85--103, Washington, DC, USA, 2007. IEEE Computer Society.
 
+\bibitem{agile:xxx}
+K.~B. et~al.
+\newblock Manifesto for agile software development, 2013.
+\newblock [http://agilemanifesto.org/ ; accessed 17-November-2013].
+
 \bibitem{George:2003}
 B.~George and L.~Williams.
 \newblock An initial investigation of test driven development in industry.
@@ -55,20 +60,15 @@ S.~Kollanus.
 
 \bibitem{Lemos:2012}
 O.~A.~L. Lemos, F.~C. Ferrari, F.~F. Silveira, and A.~Garcia.
-\newblock Development of auxiliary functions: should you be agile? an empirical
-  assessment of pair programming and test-first programming.
+\newblock Development of auxiliary functions: should you be agile? {An}
+  empirical assessment of pair programming and test-first programming.
 \newblock In {\em Proceedings of the 2012 International Conference on Software
   Engineering}, ICSE 2012, pages 529--539, Piscataway, NJGood/Questionable,
   USA, 2012. IEEE Press.
 
-\bibitem{agile:xxx}
-A.~Manifesto.
-\newblock Manifesto for agile software development, 2013.
-\newblock [http://agilemanifesto.org/ ; accessed 17-November-2013].
-
 \bibitem{North:xxx}
 D.~North.
-\newblock Introducing bdd, 2006.
+\newblock Introducing {BDD}, 2006.
 \newblock [http://dannorth.net/introducing-bdd/; accessed 25-November-2013].
 
 \bibitem{Soeken:2012}
